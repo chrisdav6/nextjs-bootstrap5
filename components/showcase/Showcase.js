@@ -1,6 +1,6 @@
 const Showcase = () => {
   return (
-    <section className='bg-dark text-light p-5 text-center'>
+    <section className='bg-dark text-light p-5 pb-lg-0 text-center'>
       <div className='container'>
         <div className='d-sm-flex align-items-sm-center text-sm-start'>
           <div>
