@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Navbar from '../components/navbar/Navbar';
 
 const Layout = ({ children, title }) => {
   return (
@@ -10,6 +11,7 @@ const Layout = ({ children, title }) => {
         <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js'></script>
       </Head>
 
+      <Navbar />
       <div>{children}</div>
     </div>
   );
