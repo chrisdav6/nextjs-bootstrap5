@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import mapboxgl from 'mapbox-gl';
 
-mapboxgl.accessToken = process.env.mapbox;
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_mapbox;
 
 const Contact = () => {
   const [pageIsMounted, setPageIsMounted] = useState(false);
