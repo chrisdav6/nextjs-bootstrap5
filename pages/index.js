@@ -4,6 +4,7 @@ import Newsletter from '../components/newsletter/Newsletter';
 import Boxes from '../components/boxes/Boxes';
 import Learn from '../components/learn/Learn';
 import Questions from '../components/questions/Questions';
+import Instructors from '../components/instructors/Instructors';
 import styles from '../styles/Home.module.scss';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Boxes />
       <Learn />
       <Questions />
+      <Instructors />
     </Layout>
   );
 };
