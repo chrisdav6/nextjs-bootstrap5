@@ -5,6 +5,7 @@ import Boxes from '../components/boxes/Boxes';
 import Learn from '../components/learn/Learn';
 import Questions from '../components/questions/Questions';
 import Instructors from '../components/instructors/Instructors';
+import Contact from '../components/contact/Contact';
 import styles from '../styles/Home.module.scss';
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Learn />
       <Questions />
       <Instructors />
+      <Contact />
     </Layout>
   );
 };
