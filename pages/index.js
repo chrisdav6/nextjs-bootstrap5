@@ -6,6 +6,7 @@ import Learn from '../components/learn/Learn';
 import Questions from '../components/questions/Questions';
 import Instructors from '../components/instructors/Instructors';
 import Contact from '../components/contact/Contact';
+import Footer from '../components/footer/Footer';
 import styles from '../styles/Home.module.scss';
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Questions />
       <Instructors />
       <Contact />
+      <Footer />
     </Layout>
   );
 };
