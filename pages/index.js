@@ -3,6 +3,7 @@ import Showcase from '../components/showcase/Showcase';
 import Newsletter from '../components/newsletter/Newsletter';
 import Boxes from '../components/boxes/Boxes';
 import Learn from '../components/learn/Learn';
+import Questions from '../components/questions/Questions';
 import styles from '../styles/Home.module.scss';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Newsletter />
       <Boxes />
       <Learn />
+      <Questions />
     </Layout>
   );
 };
