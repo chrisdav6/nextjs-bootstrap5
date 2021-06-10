@@ -32,26 +32,26 @@ const Showcase = () => {
 
       {/*Modal*/}
       <div
-        class='modal fade'
+        className='modal fade'
         id='enroll'
         tabIndex='-1'
         aria-labelledby='exampleModalLabel'
         aria-hidden='true'
       >
-        <div class='modal-dialog modal-dialog-centered'>
-          <div class='modal-content'>
-            <div class='modal-header'>
-              <h5 class='modal-title' id='exampleModalLabel'>
+        <div className='modal-dialog modal-dialog-centered'>
+          <div className='modal-content'>
+            <div className='modal-header'>
+              <h5 className='modal-title' id='exampleModalLabel'>
                 Enroll Today!
               </h5>
               <button
                 type='button'
-                class='btn-close'
+                className='btn-close'
                 data-bs-dismiss='modal'
                 aria-label='Close'
               ></button>
             </div>
-            <div class='modal-body'>
+            <div className='modal-body'>
               <p className='lead'>
                 Complete the form and we will get back to you.
               </p>
@@ -82,15 +82,15 @@ const Showcase = () => {
                 </div>
               </form>
             </div>
-            <div class='modal-footer'>
+            <div className='modal-footer'>
               <button
                 type='button'
-                class='btn btn-secondary'
+                className='btn btn-secondary'
                 data-bs-dismiss='modal'
               >
                 Close
               </button>
-              <button type='button' class='btn btn-primary'>
+              <button type='button' className='btn btn-primary'>
                 Submit
               </button>
             </div>
